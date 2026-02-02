@@ -9,7 +9,23 @@ The word "algorithm" derives from the name of the 9th-century Persian mathematic
 *   **20th Century**: **Alan Turing** formalized the concept of computation with the Turing Machine, laying the foundation for modern computer science.
 *   **Modern Era**: Algorithms now govern everything from search engines (PageRank) to artificial intelligence and cryptography.
 
-## 2. Introduction to Algorithms
+## 2. Environment Setup
+
+### Java SDK 25 (Oracle)
+1.  Visit the [Oracle Java Downloads](https://www.oracle.com/java/technologies/downloads/) page.
+2.  Select **Java 25** (if available, or the latest version).
+3.  Download the **Installer** for your operating system (macOS, Windows, or Linux).
+4.  Run the installer and follow the on-screen instructions.
+5.  Verify installation by running: `java -version`
+
+### Apache Maven
+1.  Visit the [Maven Download](https://maven.apache.org/download.cgi) page.
+2.  Download the **Binary zip archive**.
+3.  Extract the archive to a directory of your choice.
+4.  Add the `bin` directory to your system `PATH`.
+5.  Verify installation by running: `mvn -version`
+
+## 3. Introduction to Algorithms
 
 An **algorithm** is a step-by-step procedure or set of rules to be followed in calculations or other problem-solving operations.
 
@@ -40,7 +56,7 @@ public class SimpleSum {
 }
 ```
 
-## 3. GitHub Guide for Beginners
+## 4. GitHub Guide for Beginners
 
 **Git** is a version control system (tracks changes), while **GitHub** is a platform for hosting Git repositories.
 
@@ -57,7 +73,13 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-## 4. Antigravity IDE
+### Cloning this Repository
+To download this repository to your local machine using SSH, run:
+```bash
+git clone git@github.com:douglasmelo/algorithms-2026.git
+```
+
+## 5. Antigravity IDE
 
 **Antigravity** is a next-generation AI-powered coding assistant and IDE designed to help you build software faster and more intuitively.
 
