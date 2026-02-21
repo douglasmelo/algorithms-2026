@@ -17,4 +17,9 @@ Welcome to Class 2! In this session, we will cover the foundational building blo
 5. **Static Blocks & Variables** (`StaticBlocks.java`)
    - The `static` keyword, class variables, and static initialization blocks that run when the class is loaded into memory.
 
+## Basic Algorithm Example
+
+6. **Finding the Maximum Element** (`BasicAlgorithm.java`)
+   - A practical application of loops, arrays, and conditional statements to find the largest number in an array. This provides a gentle introduction to algorithmic thinking.
+
 Feel free to compile and run each file individually to see its output and experiment with the code!
