@@ -25,6 +25,12 @@ The word "algorithm" derives from the name of the 9th-century Persian mathematic
 4.  Add the `bin` directory to your system `PATH`.
 5.  Verify installation by running: `mvn -version`
 
+### Sublime Text Editor
+1.  Visit the [Sublime Text](https://www.sublimetext.com/) website.
+2.  Click **Download** for your operating system.
+3.  Install the application following the standard procedure for your OS.
+4.  Open Sublime Text to verify it works.
+
 ## 3. Introduction to Algorithms
 
 An **algorithm** is a step-by-step procedure or set of rules to be followed in calculations or other problem-solving operations.
@@ -72,6 +78,11 @@ public class SimpleSum {
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
+
+### Configuring SSH for GitHub
+To securely connect to GitHub without entering your password every time, you need to set up an SSH key.
+1.  Follow the official GitHub guide: [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+2.  Once generated, add the key to your GitHub account settings under **SSH and GPG keys**.
 
 ### Cloning this Repository
 To download this repository to your local machine using SSH, run:
