@@ -16,12 +16,15 @@ Welcome to Class 2! In this session, we will cover the foundational building blo
 5. **Inheritance & Method Overriding** (`InheritanceAndOverride.java`)
    - Object-oriented principles: How classes can inherit fields and methods from a parent class using the `extends` keyword.
    - Method Overriding: Providing a specific implementation for a method that is already defined in its superclass.
-6. **Static Blocks & Variables** (`StaticBlocks.java`)
+6. **Modifiers** (`Modifiers.java`)
+   - Access modifiers (`public`, `protected`, `private`, `default`) that control visibility.
+   - Non-access modifiers like `final` indicating constants or preventing method overriding.
+7. **Static Blocks & Variables** (`StaticBlocks.java`)
    - The `static` keyword, class variables, and static initialization blocks that run when the class is loaded into memory.
 
 ## Basic Algorithm Example
 
-7. **Finding the Maximum Element** (`BasicAlgorithm.java`)
+8. **Finding the Maximum Element** (`BasicAlgorithm.java`)
    - A practical application of loops, arrays, and conditional statements to find the largest number in an array. This provides a gentle introduction to algorithmic thinking.
 
 ## Recommended Reading
