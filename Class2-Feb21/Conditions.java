@@ -4,15 +4,19 @@ public class Conditions {
         int score = 85;
 
         System.out.println("Score is: " + score);
-        if (score >= 90) {
-            System.out.println("Grade: A");
-        } else if (score >= 80) {
-            System.out.println("Grade: B");
-        } else if (score >= 70) {
-            System.out.println("Grade: C");
-        } else {
-            System.out.println("Grade: F");
+        if (score >= 90) { //>=: Greater than or equal to
+            System.out.println("Grade: A"); // <- output command
         }
+        else if (score >= 80) {
+            System.out.println("Grade: B"); // <- output command
+        }
+        else if (score >= 70) {
+            System.out.println("Grade: C"); // <- output command
+        }
+        else {
+            System.out.println("Grade: F"); // <- output command
+        }
+
 
         System.out.println("\n--- switch Statement ---");
         int dayOfWeek = 3;
@@ -49,6 +53,16 @@ public class Conditions {
         // A shorthand for a simple if-else statement
         int age = 18;
         System.out.println("Age is: " + age);
+
+        /*
+        The general syntax for the ternary operator is as follows:
+        result = (condition) ? value_if_true : value_if_false;
+        condition: A boolean expression that evaluates to either true or false, much like the expression inside an if statement. Parentheses around the condition are not strictly required but are recommended for readability.
+        ? (Question Mark): Separates the condition from the potential results.
+        value_if_true: The expression whose result is returned if the condition is true.
+        : (Colon): Separates the true result from the false result.
+        value_if_false: The expression whose result is returned if the condition is false.
+        */
 
         String status = (age >= 18) ? "Adult" : "Minor";
         System.out.println("Status: " + status);

@@ -6,6 +6,7 @@ Welcome to Class 2! In this session, we will cover the foundational building blo
 
 1. **Primitive Types** (`PrimitiveTypes.java`)
    - Java is statically-typed and has 8 primitive data types mapping to raw memory: `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, and `char`.
+   - **Why is the maximum value of a `byte` 127?** Even though a `byte` holds 8 bits (2⁸ = 256 possible values), Java numeric primitives are *signed*. One bit is reserved as the "sign bit" to indicate whether the number is positive or negative. This splits the 256 values into 128 negative values (-128 to -1), 1 zero, and 127 positive values (1 to 127).
 2. **Control Flow: Conditions** (`Conditions.java`)
    - How to make decisions in code using `if`, `else if`, `else`, `switch` statements, and the ternary operator.
 3. **Control Flow: Loops** (`Loops.java`)
@@ -22,10 +23,37 @@ Welcome to Class 2! In this session, we will cover the foundational building blo
 7. **Static Blocks & Variables** (`StaticBlocks.java`)
    - The `static` keyword, class variables, and static initialization blocks that run when the class is loaded into memory.
 
+## How to read the comparison signs
+==: Equal to
+!=: Not equal to
+>: Greater than
+<: Less than
+>=: Greater than or equal to
+<=: Less than or equal to
+
 ## Basic Algorithm Example
 
 8. **Finding the Maximum Element** (`BasicAlgorithm.java`)
    - A practical application of loops, arrays, and conditional statements to find the largest number in an array. This provides a gentle introduction to algorithmic thinking.
+9. **Recursion** (`Recursion.java`)
+   - A method calling itself to solve smaller instances of the same problem. This includes concepts such as base cases and recursive steps. Examples cover finding factorials, Fibonacci numbers, and summing arrays.
+
+## How to Compile and Execute a Java Program
+
+To test the examples in this directory using your terminal, follow these steps:
+
+1.  **Open your terminal** and navigate to the folder containing the Java file:
+    ```bash
+    cd /path/to/algorithms-2026/Class2-Feb21
+    ```
+2.  **Compile the Java file** using the `javac` command. This translates your source code (`.java`) into a bytecode file (`.class`).
+    ```bash
+    javac PrimitiveTypes.java
+    ```
+3.  **Execute the compiled class** using the `java` command. Make sure not to include the `.class` extension when executing.
+    ```bash
+    java PrimitiveTypes
+    ```
 
 ## Recommended Reading
 
