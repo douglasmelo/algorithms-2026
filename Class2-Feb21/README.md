@@ -38,6 +38,17 @@ Welcome to Class 2! In this session, we will cover the foundational building blo
 9. **Recursion** (`Recursion.java`)
    - A method calling itself to solve smaller instances of the same problem. This includes concepts such as base cases and recursive steps. Examples cover finding factorials, Fibonacci numbers, and summing arrays.
 
+## Object-Oriented Programming (OOP)
+
+Java is an Object-Oriented Programming (OOP) language. This paradigm organizes software design around **objects** (data) rather than functions and logic. 
+
+Key principles of OOP in Java include:
+- **Classes and Objects**: A *class* is a blueprint (like a cookie cutter) for creating *objects* (the cookies). Objects hold state (variables/fields) and behavior (methods).
+- **Encapsulation**: Bundling the data (fields) and the methods that operate on the data into a single unit (class), while hiding internal details using access modifiers (like `private`).
+- **Inheritance**: Creating new classes from existing ones (using `extends`), promoting code reusability.
+- **Polymorphism**: The ability of an object to take on many forms, typically achieved through method overriding and method overloading.
+- **Abstraction**: Hiding complex implementation details and showing only the essential features of an object.
+
 ## How to Compile and Execute a Java Program
 
 To test the examples in this directory using your terminal, follow these steps:
