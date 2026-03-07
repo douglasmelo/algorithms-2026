@@ -23,9 +23,15 @@ class Dog extends Animal {
     public void fetch() {
         System.out.println("Fetching the ball!");
     }
+
 }
 
 class Cat extends Animal {
+
+    public void purr() {
+        System.out.println("Purr...");
+    }
+
     @Override
     public void makeSound() {
         System.out.println("Meow!");
@@ -49,5 +55,12 @@ public class InheritanceAndOverride {
         Animal cat = new Cat(); // Polymorphism
         System.out.print("Cat: ");
         cat.makeSound(); // Calls Cat's overridden method
+        // cat.purr(); // Error: purr() is not defined in Animal class
+
+        Cat cat2 = new Cat(); // Polymorphism
+        System.out.print("Cat2: ");
+        cat2.makeSound(); // Calls Cat's overridden method
+        System.out.print("Cat2: ");
+        cat2.purr();
     }
 }
