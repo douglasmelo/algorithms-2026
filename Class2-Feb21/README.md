@@ -44,7 +44,7 @@ Java is an Object-Oriented Programming (OOP) language. This paradigm organizes s
 
 Key principles of OOP in Java include:
 - **Classes and Objects**: A *class* is a blueprint (like a cookie cutter) for creating *objects* (the cookies). Objects hold state (variables/fields) and behavior (methods).
-- **Encapsulation**: Bundling the data (fields) and the methods that operate on the data into a single unit (class), while hiding internal details using access modifiers (like `private`).
+- **Encapsulation**: Bundling the data (fields) and the methods that operate on the data into a single unit (class), while hiding internal details using access modifiers (like `private`, `public`, `protected`, `default` (no modifier)).
 - **Inheritance**: Creating new classes from existing ones (using `extends`), promoting code reusability.
 - **Polymorphism**: The ability of an object to take on many forms, typically achieved through method overriding and method overloading.
 - **Abstraction**: Hiding complex implementation details and showing only the essential features of an object.
