@@ -22,6 +22,11 @@ Welcome to Class 2! In this session, we will cover the foundational building blo
    - Non-access modifiers like `final` indicating constants or preventing method overriding.
 7. **Static Blocks & Variables** (`StaticBlocks.java`)
    - The `static` keyword, class variables, and static initialization blocks that run when the class is loaded into memory.
+8. **Finding the Maximum Element** (`BasicAlgorithm.java`)
+   - A practical application of loops, arrays, and conditional statements to find the largest number in an array. This provides a gentle introduction to algorithmic thinking.
+9. **Recursion** (`Recursion.java`)
+   - A method calling itself to solve smaller instances of the same problem. This includes concepts such as base cases and recursive steps. Examples cover finding factorials, Fibonacci numbers, and summing arrays.
+
 
 ## How to read the comparison signs
 ==: Equal to
@@ -29,14 +34,7 @@ Welcome to Class 2! In this session, we will cover the foundational building blo
 >: Greater than
 <: Less than
 >=: Greater than or equal to
-<=: Less than or equal to
-
-## Basic Algorithm Example
-
-8. **Finding the Maximum Element** (`BasicAlgorithm.java`)
-   - A practical application of loops, arrays, and conditional statements to find the largest number in an array. This provides a gentle introduction to algorithmic thinking.
-9. **Recursion** (`Recursion.java`)
-   - A method calling itself to solve smaller instances of the same problem. This includes concepts such as base cases and recursive steps. Examples cover finding factorials, Fibonacci numbers, and summing arrays.
+<=: Less than or equal to   
 
 ## Object-Oriented Programming (OOP)
 
