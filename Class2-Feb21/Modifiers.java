@@ -3,6 +3,7 @@ public class Modifiers {
     // --- Access Modifiers ---
 
     // 1. public: Visible everywhere
+    // <access modifier> <type> <variable name> = <variable value>;
     public String publicMessage = "I am public! Anyone can see me.";
 
     // 2. protected: Visible to the same package and all subclasses
@@ -24,6 +25,7 @@ public class Modifiers {
     // StaticBlocks.java)
     public static int instanceCount = 0;
 
+    // Constructor
     public Modifiers() {
         instanceCount++;
     }
@@ -42,6 +44,8 @@ public class Modifiers {
     }
 
     public static void main(String[] args) {
+        // <type> <variable name> = new <type>(); # new is used to create an
+        // object/instance of an object.
         Modifiers obj = new Modifiers();
         obj.printMessages();
 
@@ -58,5 +62,27 @@ class ModifierSubclass extends Modifiers {
         System.out.println(defaultMessage); // OK (same package)
         // System.out.println(privateMessage); // ERROR: privateMessage has private
         // access in Modifiers
+
+        System.out.println();
+        System.out.println(publicMessage);
+        publicMessage = "New value for Public message";
+        System.out.println(publicMessage);
+
+        System.out.println(protectedMessage);
+        protectedMessage = "New value for Protected message";
+        System.out.println(protectedMessage);
+
+        System.out.println(defaultMessage);
+        defaultMessage = "New value for Default message";
+        System.out.println(defaultMessage);
+
+        // System.out.println(privateMessage);
+        // privateMessage = "New value for Private message";
+        // System.out.println(privateMessage);
+    }
+
+    public static void main(String[] args) {
+        ModifierSubclass obj = new ModifierSubclass();
+        obj.testAccess();
     }
 }
