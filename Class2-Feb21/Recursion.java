@@ -15,15 +15,15 @@ public class Recursion {
         // 41 * 40 * 39 * ... * 1 = 3628800
         System.out.println("Factorial of " + num + " is: " + factorial(num));
 
-        // // Example 2: Fibonacci
-        // int n = 6;
-        // // int n = 19;
-        // System.out.println("Fibonacci number at position " + n + " is: " +
-        // fibonacci(n));
+        // Example 2: Fibonacci
+        int n = 6;
+        // int n = 19;
+        System.out.println("Fibonacci number at position " + n + " is: " +
+                fibonacci(n));
 
-        // // Example 3: Sum of Array
-        // int[] arr = { 1, 2, 3, 4, 5 };
-        // System.out.println("Sum of array elements is: " + sumArray(arr, arr.length));
+        // Example 3: Sum of Array
+        int[] arr = { 1, 2, 3, 4, 5 };
+        System.out.println("Sum of array elements is: " + sumArray(arr, arr.length));
     }
 
     /**
