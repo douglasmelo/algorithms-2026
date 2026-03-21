@@ -15,15 +15,15 @@ public class Recursion {
         // 41 * 40 * 39 * ... * 1 = 3628800
         System.out.println("Factorial of " + num + " is: " + factorial(num));
 
-        // Example 2: Fibonacci
-        int n = 6;
-        // int n = 19;
-        System.out.println("Fibonacci number at position " + n + " is: " +
-                fibonacci(n));
+        // // Example 2: Fibonacci
+        // int n = 6;
+        // // int n = 19;
+        // System.out.println("Fibonacci number at position " + n + " is: " +
+        // fibonacci(n));
 
-        // Example 3: Sum of Array
-        int[] arr = { 1, 2, 3, 4, 5 };
-        System.out.println("Sum of array elements is: " + sumArray(arr, arr.length));
+        // // Example 3: Sum of Array
+        // int[] arr = { 1, 2, 3, 4, 5 };
+        // System.out.println("Sum of array elements is: " + sumArray(arr, arr.length));
     }
 
     /**
@@ -34,11 +34,18 @@ public class Recursion {
      * @param n the number to calculate the factorial of
      * @return the factorial of n
      */
-    public static BigInteger factorial(int n) {
+    // public static BigInteger factorial(int n) {
+    // if (n <= 1) {
+    // return BigInteger.ONE; // Base case
+    // }
+    // return BigInteger.valueOf(n).multiply(factorial(n - 1)); // Recursive step
+    // }
+
+    public static int factorial(int n) {
         if (n <= 1) {
-            return BigInteger.ONE; // Base case
+            return 1; // Base case
         }
-        return BigInteger.valueOf(n).multiply(factorial(n - 1)); // Recursive step
+        return n * factorial(n - 1); // Recursive step
     }
 
     // Stack trace:
