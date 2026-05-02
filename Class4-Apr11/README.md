@@ -57,3 +57,6 @@ public static List<Integer> selectionSort(List<Integer> list) {
 > [!TIP]
 > **Java Best Practice: Programming to an Interface**
 > Notice that the method signature uses the `List<Integer>` interface rather than the concrete class `LinkedList<Integer>`. By programming to an interface, your code becomes far more flexible. The `selectionSort` method can now accept any `List` implementation (such as an `ArrayList` or `Vector`) without requiring any code changes to the sorting logic.
+
+
+## Talk about interface

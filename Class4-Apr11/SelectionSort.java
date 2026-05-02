@@ -20,7 +20,7 @@ public class SelectionSort {
 
     public static int[] selectionSort(int[] arr) {
         int[] newArr = new int[arr.length];
-        for (int i = 0; i < newArr.length; i++) {
+        for (int i = 0; i < newArr.length; i++) { // N
             int smallest = findSmallest(arr);
             newArr[i] = arr[smallest];
             arr = removeElement(arr, smallest);
